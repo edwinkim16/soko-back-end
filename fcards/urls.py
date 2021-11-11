@@ -49,3 +49,4 @@ urlpatterns = [
     url(r'', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     url(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
+#5837d9aae9fb19966fc5d0dd81219ad27d024957
